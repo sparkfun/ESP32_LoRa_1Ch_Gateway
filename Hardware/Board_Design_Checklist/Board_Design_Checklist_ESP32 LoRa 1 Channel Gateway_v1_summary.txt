@@ -1,0 +1,26 @@
+1) Are the part libraries consistent with eagle github repo? [NO]
+comment: Following devicesets are used in schematic but have not been found in the corresponding update library:
+
+SparkFun-Aesthetics: GND, 3.3V.
+SparkFun-Capacitors: 0.1UF-25V(+80/-20%)(0603).
+
+If this is not intended, adjust the library paths or library deviceset names and update again.
+
+2) Are the fiducials in the lower right corner? [YES]
+comment: x4
+
+3) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3V
+
+4) Is the I2C address in the schematic? [YES]
+comment: I2C note: I should add pullup resistors on the board
+
+5) Is the I2C pin order correct (GND/VCC/SDA/CLK) and did you consider using a Qwiic connector? [YES]
+comment: Qwiic yes
+
+6) Is the I2C pull-up resistor isolation jumper present? [NO]
+comment: Doesnt have pullups yet. Also will this apply for a master board?
+
+7) Are active low pins labeled clearly? [NO]
+comment: RST is text-only
+

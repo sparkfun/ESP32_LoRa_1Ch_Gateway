@@ -4894,10 +4894,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="SWCH-13065" x="23.495" y="3.175" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
 <attribute name="VALUE" x="23.241" y="3.175" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="GREEN" x="6.096" y="2.54" smashed="yes" rot="MR90">
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="BLUE" x="6.096" y="2.54" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.731" y="2.54" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="6.096" y="0" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
-<attribute name="VALUE" x="6.096" y="1.016" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-08575" x="6.096" y="0" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
+<attribute name="VALUE" value="BLUE" x="6.096" y="1.016" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="1k" x="7.62" y="2.54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="6.858" y="2.54" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>

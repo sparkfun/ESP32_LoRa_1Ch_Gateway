@@ -5357,7 +5357,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="S1" pad="4"/>
 <contactref element="S1" pad="3"/>
 <contactref element="C6" pad="1"/>
-<wire x1="6.731" y1="17.191" x2="6.7" y2="17.16" width="0.1524" layer="16"/>
 <wire x1="22.695" y1="1.125" x2="22.695" y2="3.39" width="0.1524" layer="16"/>
 <wire x1="22.695" y1="3.39" x2="22.695" y2="5.225" width="0.1524" layer="16"/>
 <wire x1="20.828" y1="3.39" x2="22.695" y2="3.39" width="0.1524" layer="16"/>
@@ -5476,7 +5475,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
 <contactref element="R3" pad="1"/>
-<wire x1="4.462" y1="21.416" x2="4.462" y2="21.336" width="0.1524" layer="16"/>
 <via x="4.064" y="5.207" extent="1-16" drill="0.3048"/>
 <wire x1="4.064" y1="5.207" x2="2.723" y2="5.207" width="0.1524" layer="16"/>
 <wire x1="2.723" y1="5.207" x2="2.705" y2="5.225" width="0.1524" layer="16"/>
@@ -5509,7 +5507,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="SDA">
 <contactref element="U3" pad="33"/>
 <contactref element="J4" pad="3"/>
-<wire x1="4.462" y1="31.576" x2="4.382" y2="31.496" width="0.1524" layer="16"/>
 <contactref element="J1" pad="1"/>
 <via x="3.0734" y="15.24" extent="1-16" drill="0.3048"/>
 <wire x1="3.0734" y1="15.24" x2="3.1115" y2="15.2019" width="0.254" layer="1"/>
@@ -5724,7 +5721,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R6" pad="1"/>
 <contactref element="Q1" pad="4"/>
 <contactref element="U2" pad="14"/>
-<wire x1="14.605" y1="12.96" x2="14.605" y2="13.2588" width="0.1524" layer="16"/>
 <wire x1="10.8966" y1="15.652" x2="10.8886" y2="15.66" width="0.1524" layer="16"/>
 <wire x1="8.54" y1="17.16" x2="8.54" y2="17.684" width="0.254" layer="16"/>
 <wire x1="8.54" y1="17.684" x2="9.1303" y2="18.2743" width="0.254" layer="16"/>
@@ -5743,7 +5739,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="RFM_DIO2/32">
 <contactref element="U4" pad="DIO2"/>
 <contactref element="U3" pad="8"/>
-<wire x1="20.938" y1="29.036" x2="20.8496" y2="29.036" width="0.1524" layer="16"/>
 <wire x1="18.43" y1="37.48" x2="20.2" y2="37.48" width="0.254" layer="1"/>
 <via x="17.7546" y="35.8279125" extent="1-16" drill="0.381"/>
 <wire x1="20.938" y1="29.036" x2="20.113" y2="29.036" width="0.254" layer="16"/>
@@ -5973,7 +5968,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="14.859" y="0.762" extent="1-16" drill="0.3048"/>
 <via x="10.541" y="0.762" extent="1-16" drill="0.3048"/>
 <wire x1="9.8" y1="5.228" x2="9.948" y2="5.08" width="0.1524" layer="16"/>
-<wire x1="9.948" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="16"/>
 <wire x1="9.8" y1="5.228" x2="10" y2="5.028" width="0.1524" layer="16"/>
 <wire x1="10" y1="5.028" x2="10" y2="2.378" width="0.1524" layer="16"/>
 <wire x1="15.6" y1="5.228" x2="15.43141875" y2="5.05941875" width="0.1524" layer="16"/>
