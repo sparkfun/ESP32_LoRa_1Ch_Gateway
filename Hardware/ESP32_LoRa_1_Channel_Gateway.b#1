@@ -152,8 +152,8 @@
 <wire x1="0" y1="45.72" x2="0" y2="0" width="0.2032" layer="20"/>
 <hole x="1.27" y="17.78" drill="1.016"/>
 <text x="2.032" y="0.381" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v1</text>
-<text x="29.21" y="-7.62" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
-<text x="29.21" y="-11.43" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
+<text x="22.479" y="-10.033" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
+<text x="22.352" y="-12.954" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
 <dimension x1="27.94" y1="0" x2="27.94" y2="45.72" x3="30.48" y3="22.86" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="48.26" x2="25.4" y2="48.26" x3="12.7" y3="50.8" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
@@ -6115,7 +6115,7 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
 <smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
 <smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
-<circle x="-9.906" y="7.62" radius="0.359209375" width="0" layer="21"/>
+<circle x="-8.636" y="8.255" radius="0.359209375" width="0" layer="21"/>
 </package>
 </packages>
 </library>
@@ -6543,7 +6543,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-08280" x="9.144" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.144" y="18.034" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="2.54" y="-7.62"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-4.953" y="-9.906"/>
 <element name="Q1" library="esp32-thing-temp" package="SC70-6" value="MBT3904DW1T1" x="17.78" y="16.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.383" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRANS-13337" x="17.78" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6721,7 +6721,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$44" library="buzzard_labels" package="MOSI5" value="" x="2.921" y="22.098" rot="MR270"/>
 <element name="U$45" library="buzzard_labels" package="ESP32_LORA_1#CH_GATEWAY23" value="" x="24.003" y="8.763" rot="MR0"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="22.606" y="2.54" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="13.97" y="-11.43"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="6.477" y="-12.954"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.13" y="44.45"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.13" y="44.45" rot="MR0"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.016" y="13.208"/>

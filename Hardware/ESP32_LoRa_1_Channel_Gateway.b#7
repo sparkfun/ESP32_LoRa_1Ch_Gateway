@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -6737,7 +6737,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$46" library="Labels" package="QWIIC_COPYRIGHT_SMALL" value="" x="24.13" y="10.16" rot="MR270"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="18.923" y="9.906" rot="MR0"/>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="u.FL" x="3.429" y="15.24" rot="R180"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="Ant Sel" x="3.429" y="15.24" rot="R180"/>
 <element name="U$47" library="buzzard_labels (1)" package="ANT_SEL0" value="" x="4.064" y="16.256" rot="R90"/>
 </elements>
 <signals>
@@ -6914,7 +6914,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="16.51" y="38.1" extent="1-16" drill="0.381"/>
 <via x="16.129" y="33.655" extent="1-16" drill="0.381"/>
 <via x="2.667" y="3.1242" extent="1-16" drill="0.381"/>
-<via x="19.8755" y="4.572" extent="1-16" drill="0.381"/>
+<via x="20.0787" y="4.445" extent="1-16" drill="0.381"/>
 <via x="23.5712" y="6.1976" extent="1-16" drill="0.381"/>
 <via x="3.2004" y="10.795" extent="1-16" drill="0.381"/>
 <contactref element="J1" pad="10"/>
@@ -6926,7 +6926,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="7.493" y="5.7658" extent="1-16" drill="0.381"/>
 <via x="19.304" y="7.7978" extent="1-16" drill="0.381"/>
 <via x="10.16" y="25.4" extent="1-16" drill="0.381"/>
-<via x="8.382" y="14.351" extent="1-16" drill="0.381"/>
 <via x="4.064" y="10.795" extent="1-16" drill="0.381"/>
 <via x="4.953" y="10.795" extent="1-16" drill="0.381"/>
 <via x="15.24" y="38.1" extent="1-16" drill="0.381"/>
@@ -6943,7 +6942,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="11.43" y="35.56" extent="1-16" drill="0.381"/>
 <via x="10.16" y="35.56" extent="1-16" drill="0.381"/>
 <via x="10.16" y="34.29" extent="1-16" drill="0.381"/>
-<via x="5.08" y="13.97" extent="1-16" drill="0.381"/>
 <via x="0.762" y="7.493" extent="1-16" drill="0.381"/>
 <via x="18.542" y="21.971" extent="1-16" drill="0.381"/>
 <via x="16.383" y="21.971" extent="1-16" drill="0.381"/>
@@ -6955,7 +6953,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="12.7" y="10.7442" extent="1-16" drill="0.381"/>
 <via x="13.97" y="10.7442" extent="1-16" drill="0.381"/>
 <via x="17.526" y="6.35" extent="1-16" drill="0.381"/>
-<via x="16.129" y="12.7762" extent="1-16" drill="0.381"/>
+<via x="16.129" y="12.9032" extent="1-16" drill="0.381"/>
 <via x="20.32" y="12.7" extent="1-16" drill="0.381"/>
 <via x="18.5928" y="0.6858" extent="1-16" drill="0.381"/>
 <via x="22.8346" y="9.7282" extent="1-16" drill="0.381"/>
@@ -7078,19 +7076,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R6" pad="2"/>
 <contactref element="Q1" pad="2"/>
 <via x="11.811" y="18.542" extent="1-16" drill="0.381"/>
-<wire x1="19.558" y1="14.478" x2="18.923" y2="13.843" width="0.254" layer="1"/>
+<wire x1="19.558" y1="14.478" x2="18.542" y2="13.462" width="0.254" layer="1"/>
 <wire x1="19.558" y1="14.478" x2="19.558" y2="16.383" width="0.254" layer="1"/>
 <wire x1="19.431" y1="16.51" x2="19.558" y2="16.383" width="0.254" layer="1"/>
 <wire x1="18.7" y1="16.51" x2="19.431" y2="16.51" width="0.254" layer="1"/>
-<via x="16.256" y="13.843" extent="1-16" drill="0.381"/>
-<wire x1="11.811" y1="18.288" x2="16.256" y2="13.843" width="0.254" layer="16"/>
-<wire x1="18.923" y1="13.843" x2="16.256" y2="13.843" width="0.254" layer="1"/>
+<via x="16.891" y="13.462" extent="1-16" drill="0.381"/>
+<wire x1="11.811" y1="18.542" x2="16.891" y2="13.462" width="0.254" layer="16"/>
+<wire x1="18.542" y1="13.462" x2="16.891" y2="13.462" width="0.254" layer="1"/>
 <wire x1="12.9968" y1="17.653" x2="12.9968" y2="18.03625" width="0.254" layer="1"/>
 <wire x1="13.716" y1="17.36" x2="13.2898" y2="17.36" width="0.254" layer="1"/>
 <wire x1="13.2898" y1="17.36" x2="12.9968" y2="17.653" width="0.254" layer="1"/>
 <wire x1="12.49105" y1="18.542" x2="11.811" y2="18.542" width="0.254" layer="1"/>
 <wire x1="12.9968" y1="18.03625" x2="12.49105" y2="18.542" width="0.254" layer="1"/>
-<wire x1="11.811" y1="18.542" x2="11.811" y2="18.288" width="0.254" layer="16"/>
 </signal>
 <signal name="RFM_RST">
 <contactref element="U4" pad="!RESET"/>
