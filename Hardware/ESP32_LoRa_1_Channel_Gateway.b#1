@@ -6549,10 +6549,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="TRANS-13337" x="17.78" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.177" y="16.51" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="5.588" y="5.207" smashed="yes">
-<attribute name="NAME" x="5.588" y="5.969" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="5.588" y="5.207" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7.239" y="4.826" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="5.588" y="5.334" smashed="yes">
+<attribute name="NAME" x="5.588" y="6.096" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="5.588" y="5.334" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="7.239" y="4.953" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="10k" x="15.367" y="16.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.605" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6835,12 +6835,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="16.93" y1="9.398" x2="16.891" y2="9.359" width="0.508" layer="1"/>
 <wire x1="16.93" y1="10.922" x2="16.93" y2="11.706" width="0.254" layer="1"/>
 <wire x1="10.033" y1="7.36" x2="10.033" y2="11.745" width="0.254" layer="1"/>
-<wire x1="6.438" y1="5.207" x2="7.62" y2="5.207" width="0.508" layer="1"/>
+<wire x1="6.438" y1="5.334" x2="7.493" y2="5.334" width="0.508" layer="1"/>
 <via x="7.62" y="5.207" extent="1-16" drill="0.381"/>
 <wire x1="7.62" y1="5.207" x2="4.699" y2="5.207" width="0.508" layer="16"/>
 <wire x1="4.699" y1="5.207" x2="3.8998" y2="5.207" width="0.508" layer="16"/>
 <wire x1="5.588" y1="1.79" x2="4.091" y2="1.79" width="0.508" layer="1"/>
 <wire x1="4.091" y1="1.79" x2="4.064" y2="1.817" width="0.508" layer="1"/>
+<wire x1="7.493" y1="5.334" x2="7.62" y2="5.207" width="0.508" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U3" pad="3"/>
@@ -6890,10 +6891,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.2555875" y1="11.1125" x2="8.9535" y2="11.1125" width="0.254" layer="16"/>
 <wire x1="6.9469" y1="9.8038125" x2="8.2555875" y2="11.1125" width="0.254" layer="16"/>
 <wire x1="2.705" y1="4.844" x2="2.3504" y2="5.1986" width="0.508" layer="1"/>
-<wire x1="4.738" y1="5.207" x2="3.937" y2="5.207" width="0.508" layer="1"/>
+<wire x1="4.738" y1="5.334" x2="4.064" y2="5.334" width="0.508" layer="1"/>
 <wire x1="3.574" y1="4.844" x2="2.705" y2="4.844" width="0.508" layer="1"/>
-<wire x1="3.937" y1="5.207" x2="3.574" y2="4.844" width="0.508" layer="1"/>
-<wire x1="4.738" y1="5.207" x2="4.738" y2="5.881" width="0.254" layer="1"/>
+<wire x1="4.064" y1="5.334" x2="3.574" y2="4.844" width="0.508" layer="1"/>
+<wire x1="4.738" y1="5.334" x2="4.738" y2="5.881" width="0.254" layer="1"/>
 <wire x1="5.246" y1="6.389" x2="5.246" y2="7.366" width="0.254" layer="1"/>
 <wire x1="4.738" y1="5.881" x2="5.246" y2="6.389" width="0.254" layer="1"/>
 </signal>

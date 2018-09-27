@@ -6958,7 +6958,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="17.526" y="6.35" extent="1-16" drill="0.381"/>
 <via x="16.129" y="12.9032" extent="1-16" drill="0.381"/>
 <via x="20.32" y="12.7" extent="1-16" drill="0.381"/>
-<via x="18.5928" y="0.6858" extent="1-16" drill="0.381"/>
+<via x="18.288" y="0.6604" extent="1-16" drill="0.381"/>
 <via x="22.8346" y="9.7282" extent="1-16" drill="0.381"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U1" pad="2"/>

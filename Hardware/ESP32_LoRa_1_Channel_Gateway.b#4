@@ -150,7 +150,7 @@
 <wire x1="25.38" y1="0" x2="25.4" y2="45.72" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="45.72" x2="0" y2="45.72" width="0.2032" layer="20"/>
 <wire x1="0" y1="45.72" x2="0" y2="0" width="0.2032" layer="20"/>
-<hole x="1.27" y="17.78" drill="0.381"/>
+<hole x="1.27" y="17.78" drill="1.016"/>
 <text x="2.032" y="0.381" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v1</text>
 <text x="29.21" y="-7.62" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
 <text x="29.21" y="-11.43" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
@@ -6947,8 +6947,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="16.383" y="21.971" extent="1-16" drill="0.381"/>
 <via x="11.43" y="25.4" extent="1-16" drill="0.381"/>
 <via x="12.7" y="25.4" extent="1-16" drill="0.381"/>
-<via x="1.905" y="18.669" extent="1-16" drill="0.381"/>
-<via x="2.54" y="17.78" extent="1-16" drill="0.381"/>
+<via x="2.794" y="18.034" extent="1-16" drill="0.381"/>
 <via x="11.4554" y="10.7442" extent="1-16" drill="0.381"/>
 <via x="12.7" y="10.7442" extent="1-16" drill="0.381"/>
 <via x="13.97" y="10.7442" extent="1-16" drill="0.381"/>

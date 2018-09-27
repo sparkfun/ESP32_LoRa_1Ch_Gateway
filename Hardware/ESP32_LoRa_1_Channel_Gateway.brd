@@ -6115,7 +6115,7 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
 <smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
 <smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
-<circle x="-9.906" y="7.62" radius="0.359209375" width="0" layer="21"/>
+<circle x="-8.636" y="8.255" radius="0.359209375" width="0" layer="21"/>
 </package>
 </packages>
 </library>

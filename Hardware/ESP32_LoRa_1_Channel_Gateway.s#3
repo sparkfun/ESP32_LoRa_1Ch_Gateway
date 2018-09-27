@@ -11601,12 +11601,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
-<symbol name="3.3V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="OSHW-LOGO">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
 &lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;
@@ -16272,19 +16266,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22065,29 +22046,23 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U3" library="esp32_lora_gateway" deviceset="ESP-WROOM-32" device="NARROW"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="Q1" library="esp32-thing-temp" deviceset="MBT3904DW1T1" device="" value="MBT3904DW1T1"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U4" library="SparkFun-RF" deviceset="RFM95W" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL" value="USB"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC"/>
-<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="RESET"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
 <part name="U2" library="SparkFun-IC-Comms" deviceset="CH340C" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" value="0"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
@@ -22095,14 +22070,11 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -22111,13 +22083,10 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
-<part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22135,6 +22104,15 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22181,24 +22159,20 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="U3" gate="G$1" x="35.56" y="50.8"/>
 <instance part="R4" gate="G$1" x="10.16" y="88.9" rot="R90"/>
-<instance part="SUPPLY10" gate="G$1" x="15.24" y="99.06"/>
 <instance part="R5" gate="G$1" x="228.6" y="109.22" rot="R180"/>
 <instance part="R6" gate="G$1" x="228.6" y="91.44" rot="R180"/>
 <instance part="Q1" gate="Q1" x="218.44" y="109.22" rot="MR0"/>
 <instance part="Q1" gate="Q2" x="218.44" y="91.44" rot="R180"/>
 <instance part="J3" gate="J1" x="71.12" y="152.4"/>
-<instance part="SUPPLY5" gate="G$1" x="132.08" y="165.1"/>
 <instance part="U1" gate="G$1" x="25.4" y="160.02"/>
 <instance part="C1" gate="G$1" x="7.62" y="157.48" rot="MR0"/>
 <instance part="C2" gate="G$1" x="40.64" y="157.48"/>
-<instance part="SUPPLY2" gate="G$1" x="35.56" y="167.64"/>
 <instance part="SUPPLY3" gate="G$1" x="81.28" y="167.64"/>
 <instance part="SUPPLY1" gate="G$1" x="7.62" y="167.64"/>
 <instance part="S1" gate="G$1" x="119.38" y="116.84"/>
 <instance part="D2" gate="G$1" x="96.52" y="99.06"/>
 <instance part="R2" gate="G$1" x="88.9" y="106.68"/>
 <instance part="U2" gate="U1" x="106.68" y="157.48"/>
-<instance part="SUPPLY4" gate="G$1" x="93.98" y="167.64"/>
 <instance part="S2" gate="G$1" x="119.38" y="91.44"/>
 <instance part="R1" gate="G$1" x="53.34" y="147.32" rot="R90"/>
 <instance part="D1" gate="G$1" x="53.34" y="160.02"/>
@@ -22206,17 +22180,12 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="SUPPLY9" gate="G$1" x="127" y="106.68"/>
 <instance part="C5" gate="G$1" x="40.64" y="101.6"/>
 <instance part="C4" gate="G$1" x="30.48" y="101.6"/>
-<instance part="SUPPLY8" gate="G$1" x="40.64" y="109.22"/>
-<instance part="SUPPLY7" gate="G$1" x="30.48" y="109.22"/>
 <instance part="C6" gate="G$1" x="12.7" y="73.66"/>
-<instance part="SUPPLY12" gate="G$1" x="96.52" y="50.8"/>
 <instance part="U4" gate="G$1" x="114.3" y="33.02"/>
 <instance part="C7" gate="G$1" x="96.52" y="33.02"/>
 <instance part="J6" gate="G$1" x="114.3" y="71.12"/>
 <instance part="R7" gate="G$1" x="88.9" y="53.34" rot="R90"/>
-<instance part="SUPPLY11" gate="G$1" x="88.9" y="60.96"/>
 <instance part="J4" gate="G$1" x="210.82" y="152.4"/>
-<instance part="SUPPLY6" gate="G$1" x="236.22" y="172.72"/>
 <instance part="J5" gate="G$1" x="162.56" y="137.16"/>
 <instance part="J1" gate="G$1" x="182.88" y="160.02"/>
 <instance part="J2" gate="G$1" x="165.1" y="154.94"/>
@@ -22228,13 +22197,10 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="FD4" gate="G$1" x="246.38" y="17.78"/>
 <instance part="R8" gate="G$1" x="231.14" y="165.1" rot="R90"/>
 <instance part="R9" gate="G$1" x="223.52" y="165.1" rot="R90"/>
-<instance part="SUPPLY13" gate="G$1" x="223.52" y="172.72"/>
-<instance part="SUPPLY14" gate="G$1" x="231.14" y="172.72"/>
 <instance part="C3" gate="G$1" x="132.08" y="154.94"/>
 <instance part="LOGO5" gate="G$1" x="160.02" y="38.1"/>
 <instance part="JP1" gate="G$1" x="127" y="71.12"/>
 <instance part="SUPPLY15" gate="G$1" x="-35.56" y="162.56"/>
-<instance part="GND18" gate="1" x="-35.56" y="152.4"/>
 <instance part="GND1" gate="1" x="7.62" y="147.32"/>
 <instance part="GND2" gate="1" x="12.7" y="147.32"/>
 <instance part="GND3" gate="1" x="40.64" y="147.32"/>
@@ -22252,85 +22218,24 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="GND13" gate="1" x="111.76" y="109.22"/>
 <instance part="GND15" gate="1" x="96.52" y="15.24"/>
 <instance part="GND16" gate="1" x="109.22" y="58.42"/>
+<instance part="SUPPLY2" gate="G$1" x="35.56" y="167.64"/>
+<instance part="SUPPLY4" gate="G$1" x="132.08" y="165.1"/>
+<instance part="SUPPLY5" gate="G$1" x="93.98" y="167.64"/>
+<instance part="SUPPLY6" gate="G$1" x="228.6" y="175.26"/>
+<instance part="SUPPLY7" gate="G$1" x="15.24" y="99.06"/>
+<instance part="SUPPLY8" gate="G$1" x="30.48" y="109.22"/>
+<instance part="SUPPLY10" gate="G$1" x="40.64" y="109.22"/>
+<instance part="SUPPLY11" gate="G$1" x="88.9" y="60.96"/>
+<instance part="SUPPLY12" gate="G$1" x="96.52" y="50.8"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="3V3"/>
-<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="17.78" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="83.82" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="96.52" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="93.98" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<junction x="15.24" y="96.52"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="132.08" y1="160.02" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U2" gate="U1" pin="VCC"/>
-<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="96.52" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="165.1" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="V3"/>
-<wire x1="96.52" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<junction x="93.98" y="165.1"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="33.02" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="165.1" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="35.56" y1="167.64" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<junction x="35.56" y="165.1"/>
-<wire x1="40.64" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<junction x="40.64" y="165.1"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="53.34" y1="162.56" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="127" y1="106.68" x2="127" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="40.64" y1="109.22" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="30.48" y1="109.22" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="48.26" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-<pinref part="U4" gate="G$1" pin="3.3V"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="38.1" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<junction x="96.52" y="48.26"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="88.9" y1="60.96" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="218.44" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="152.4" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
@@ -22338,14 +22243,84 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="J2" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
-<wire x1="223.52" y1="170.18" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="33.02" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="165.1" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="167.64" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<junction x="35.56" y="165.1"/>
+<wire x1="40.64" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
+<junction x="40.64" y="165.1"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="53.34" y1="162.56" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
+<wire x1="132.08" y1="160.02" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U2" gate="U1" pin="VCC"/>
+<wire x1="96.52" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="165.1" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U2" gate="U1" pin="V3"/>
+<wire x1="96.52" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
+<junction x="93.98" y="165.1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="152.4" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="170.18" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="172.72" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="172.72" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="172.72" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
+<junction x="231.14" y="172.72"/>
+<wire x1="228.6" y1="172.72" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
+<junction x="228.6" y="172.72"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="3V3"/>
+<wire x1="17.78" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="83.82" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="96.52" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="93.98" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
+<junction x="15.24" y="96.52"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="109.22" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="109.22" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="48.26" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="3.3V"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="38.1" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<junction x="96.52" y="48.26"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="RESET" class="0">

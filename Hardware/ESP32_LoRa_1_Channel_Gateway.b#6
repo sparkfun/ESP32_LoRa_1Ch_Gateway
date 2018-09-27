@@ -6737,7 +6737,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$46" library="Labels" package="QWIIC_COPYRIGHT_SMALL" value="" x="24.13" y="10.16" rot="MR270"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="18.923" y="9.906" rot="MR0"/>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="u.FL" x="3.429" y="15.24" rot="R180"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="Ant Sel" x="3.429" y="15.24" rot="R180"/>
 <element name="U$47" library="buzzard_labels (1)" package="ANT_SEL0" value="" x="4.064" y="16.256" rot="R90"/>
 </elements>
 <signals>
