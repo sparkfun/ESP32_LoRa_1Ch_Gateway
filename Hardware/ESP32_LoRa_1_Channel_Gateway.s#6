@@ -22085,7 +22085,7 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="R9" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="Ant Sel"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22153,6 +22153,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="170.18" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">v1</text>
 <text x="170.18" y="6.604" size="2.54" layer="94">Owen Lyke</text>
+<text x="119.38" y="58.42" size="1.778" layer="97">Open this jumper if 
+using wire antenna</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

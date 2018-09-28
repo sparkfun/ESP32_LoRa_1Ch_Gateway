@@ -1,0 +1,18 @@
+1) Have you verified that the BOM in Sparkle is accurate (also checking for PROD_ID, NAME, VALUE, PREFIX)? [NO]
+comment: No, I haven't created a sparkle page for this product yet. It will probably be a clone of the SparkX version. 
+
+2) Is the I2C address in the schematic? [n/a]
+comment: N/A - this is an I2C master
+
+3) Is the I2C pin order correct (GND/VCC/SDA/CLK) and did you consider using a Qwiic connector? [YES]
+comment: Qwiic connector used
+
+4) Is the I2C pull-up resistor isolation jumper present? [NO]
+comment: No, this is a master. All downstream devices will have isolation option. Discussed with Nate
+
+5) Is the SPI pull-up resistor for Chip Select present? [NO]
+comment: No. There could be a CS PU on the RFM_CS net but this board is so jam-packed and that line is not broken out so I'm comfortable leaving it up to the ESP to push/pull that line
+
+6) Are active low pins labeled clearly? [NO]
+comment: RST is not, but this board is very tight
+

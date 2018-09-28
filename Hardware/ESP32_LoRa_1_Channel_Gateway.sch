@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -22075,7 +22075,7 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -22152,8 +22152,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="170.18" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="170.18" y="6.604" size="2.54" layer="94">Owen Lyke</text>
-<text x="119.38" y="60.96" size="1.778" layer="97">Close if using 
-u.Fl connector</text>
+<text x="119.38" y="60.96" size="1.778" layer="97">Close if using
+U.FL  connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

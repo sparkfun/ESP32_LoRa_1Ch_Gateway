@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -22086,7 +22086,6 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="Ant Sel"/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22151,7 +22150,7 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="73.66" y="73.66" size="2.54" layer="94">RFM95HW</text>
 <wire x1="66.04" y1="124.46" x2="66.04" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
 <text x="170.18" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v1</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="170.18" y="6.604" size="2.54" layer="94">Owen Lyke</text>
 <text x="119.38" y="58.42" size="1.778" layer="97">Open this jumper if 
 using wire antenna</text>
@@ -22202,7 +22201,6 @@ using wire antenna</text>
 <instance part="C3" gate="G$1" x="132.08" y="154.94"/>
 <instance part="LOGO5" gate="G$1" x="160.02" y="38.1"/>
 <instance part="JP1" gate="G$1" x="127" y="71.12"/>
-<instance part="SUPPLY15" gate="G$1" x="-35.56" y="162.56"/>
 <instance part="GND1" gate="1" x="7.62" y="147.32"/>
 <instance part="GND2" gate="1" x="12.7" y="147.32"/>
 <instance part="GND3" gate="1" x="40.64" y="147.32"/>
