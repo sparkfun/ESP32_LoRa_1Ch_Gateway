@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,42 +18,42 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -6509,10 +6509,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="VREG-12457" x="3.175" y="10.795" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.175" y="10.795" size="0.6096" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="3.175" y="8.382" smashed="yes">
-<attribute name="NAME" x="3.175" y="9.144" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00868" x="3.175" y="8.382" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="3.175" y="7.747" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="3.175" y="8.509" smashed="yes">
+<attribute name="NAME" x="3.175" y="9.271" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00868" x="3.175" y="8.509" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="3.175" y="7.874" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="3.175" y="13.208" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.175" y="12.446" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -6580,10 +6580,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00810" x="10.668" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.668" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="3.2004" y="6.858" smashed="yes">
-<attribute name="NAME" x="3.2004" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="3.2004" y="6.858" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="3.2004" y="7.6454" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="3.2004" y="6.985" smashed="yes">
+<attribute name="NAME" x="3.2004" y="7.747" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00810" x="3.2004" y="6.985" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="3.2004" y="7.7724" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="1.397" y="15.24" smashed="yes">
 <attribute name="NAME" x="0.127" y="16.383" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6623,19 +6623,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$17" library="buzzard_labels" package="410" value="" x="22.5425" y="21.5265" smashed="yes" rot="R270"/>
 <element name="U$18" library="buzzard_labels" package="SCL8" value="" x="22.5425" y="19.304" smashed="yes" rot="R270"/>
 <element name="U$19" library="buzzard_labels" package="SDA7" value="" x="22.5425" y="16.764" smashed="yes" rot="R270"/>
-<element name="U$20" library="buzzard_labels" package="RST2" value="" x="0.3175" y="5.7785" smashed="yes"/>
-<element name="U$21" library="buzzard_labels" package="020" value="" x="21.3995" y="6.35" smashed="yes"/>
+<element name="U$20" library="buzzard_labels" package="RST2" value="" x="0.3175" y="5.9055" smashed="yes"/>
+<element name="U$21" library="buzzard_labels" package="020" value="" x="22.4155" y="6.096" smashed="yes"/>
 <element name="U$22" library="buzzard_labels" package="PWR19" value="" x="3.937" y="0.762" smashed="yes"/>
 <element name="U$23" library="buzzard_labels" package="1722" value="" x="18.0975" y="0.635" smashed="yes"/>
 <element name="U$25" library="buzzard_labels" package="ESP32_LORA_1#CH_GATEWAY21" value="" x="3.937" y="14.1605" smashed="yes"/>
 <element name="U$26" library="buzzard_labels" package="GND0" value="" x="22.5425" y="39.9415" rot="MR270"/>
 <element name="U$27" library="buzzard_labels" package="TX16" value="" x="22.5425" y="37.338" rot="MR270"/>
 <element name="U$28" library="buzzard_labels" package="RX15" value="" x="22.4155" y="34.671" rot="MR270"/>
-<element name="U$29" library="buzzard_labels" package="2314" value="" x="22.4155" y="32.0675" rot="MR270"/>
-<element name="U$30" library="buzzard_labels" package="1912" value="" x="22.4155" y="29.464" rot="MR270"/>
-<element name="U$31" library="buzzard_labels" package="1811" value="" x="22.4155" y="26.924" rot="MR270"/>
-<element name="U$32" library="buzzard_labels" package="513" value="" x="22.4155" y="24.0665" rot="MR270"/>
-<element name="U$33" library="buzzard_labels" package="410" value="" x="22.4155" y="21.5265" rot="MR270"/>
+<element name="U$29" library="buzzard_labels" package="2314" value="" x="22.5425" y="32.0675" rot="MR270"/>
+<element name="U$30" library="buzzard_labels" package="1912" value="" x="22.5425" y="29.337" rot="MR270"/>
+<element name="U$31" library="buzzard_labels" package="1811" value="" x="22.5425" y="26.797" rot="MR270"/>
+<element name="U$32" library="buzzard_labels" package="513" value="" x="22.5425" y="23.9395" rot="MR270"/>
+<element name="U$33" library="buzzard_labels" package="410" value="" x="22.5425" y="21.5265" rot="MR270"/>
 <element name="U$34" library="buzzard_labels" package="SCL8" value="" x="22.4155" y="19.431" rot="MR270"/>
 <element name="U$35" library="buzzard_labels" package="SDA7" value="" x="22.4155" y="17.018" rot="MR270"/>
 <element name="U$36" library="buzzard_labels" package="ANT6" value="" x="3.4036" y="16.764" rot="MR0"/>
@@ -6781,7 +6781,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="9.906" y="22.1107" extent="1-16" drill="0.381"/>
 <wire x1="9.906" y1="22.1107" x2="7.5311" y2="22.1107" width="0.254" layer="1"/>
 <wire x1="9.906" y1="22.1107" x2="9.906" y2="20.193" width="0.254" layer="16"/>
-<wire x1="2.3504" y1="6.858" x2="2.3504" y2="5.1986" width="0.508" layer="1"/>
+<wire x1="2.3504" y1="6.985" x2="2.3504" y2="5.1986" width="0.508" layer="1"/>
 <wire x1="1.816" y1="1.633" x2="1.816" y2="3.955" width="0.508" layer="1"/>
 <wire x1="2.705" y1="0.744" x2="1.816" y2="1.633" width="0.508" layer="1"/>
 <wire x1="1.816" y1="3.955" x2="2.705" y2="4.844" width="0.508" layer="1"/>
@@ -7148,8 +7148,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="0.8048" y1="9.1868" x2="0.762" y2="9.144" width="0.254" layer="1"/>
 <wire x1="6.096" y1="9.1868" x2="0.8048" y2="9.1868" width="0.254" layer="1"/>
 <wire x1="0.762" y1="9.144" x2="0.762" y2="8.509" width="0.254" layer="1"/>
-<wire x1="0.762" y1="8.509" x2="0.889" y2="8.382" width="0.254" layer="1"/>
-<wire x1="0.889" y1="8.382" x2="2.325" y2="8.382" width="0.254" layer="1"/>
+<wire x1="0.762" y1="8.509" x2="2.325" y2="8.509" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="D2" pad="A"/>

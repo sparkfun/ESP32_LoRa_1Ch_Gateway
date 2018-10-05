@@ -5641,55 +5641,7 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <wire x1="13.93" y1="-9" x2="7.93" y2="-9" width="0" layer="51"/>
 <wire x1="7.93" y1="-9" x2="-11.57" y2="-9" width="0" layer="51"/>
 <wire x1="7.93" y1="-9" x2="7.93" y2="9" width="0" layer="51"/>
-<wire x1="-11.697" y1="6.35" x2="-11.697" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="-11.697" y1="9.127" x2="-10.67" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="-11.697" y1="-6.35" x2="-11.697" y2="-9.127" width="0.2032" layer="21"/>
-<wire x1="-11.697" y1="-9.127" x2="-10.67" y2="-9.127" width="0.2032" layer="21"/>
-<wire x1="7.041" y1="9.127" x2="14.057" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="7.041" y1="-9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
-<wire x1="14.057" y1="9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
-<smd name="1" x="6.43" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="2" x="5.16" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="3" x="3.89" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="4" x="2.62" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="5" x="1.35" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="6" x="0.08" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="7" x="-1.19" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="8" x="-2.46" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="9" x="-3.73" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="10" x="-5" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="11" x="-6.27" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="12" x="-7.54" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="13" x="-8.81" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="14" x="-10.08" y="8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="15" x="-11.57" y="5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="16" x="-11.57" y="4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="17" x="-11.57" y="3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="18" x="-11.57" y="1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="19" x="-11.57" y="0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="20" x="-11.57" y="-0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="21" x="-11.57" y="-1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="22" x="-11.57" y="-3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="23" x="-11.57" y="-4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="24" x="-11.57" y="-5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="25" x="-10.08" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="26" x="-8.81" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="27" x="-7.54" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="28" x="-6.27" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="29" x="-5" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="30" x="-3.73" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="31" x="-2.46" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="32" x="-1.19" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="33" x="0.08" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="34" x="1.35" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="35" x="2.62" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="36" x="3.89" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="37" x="5.16" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="38" x="6.43" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
-<smd name="GND" x="-1.27" y="0" dx="6" dy="6" layer="1" cream="no"/>
 <text x="10.93" y="0" size="1.27" layer="51" rot="R270" align="center">Keepout Zone</text>
-<text x="-9.03" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;Name</text>
-<text x="-7.76" y="0" size="0.8128" layer="27" rot="R90" align="center">&gt;Value</text>
 <polygon width="0" layer="51">
 <vertex x="6.88" y="9"/>
 <vertex x="6.73" y="9" curve="-45"/>
@@ -5970,6 +5922,20 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <vertex x="-10.53" y="-8.55"/>
 <vertex x="-9.63" y="-8.55"/>
 </polygon>
+<smd name="1" x="6.43" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="2" x="5.16" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="3" x="3.89" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="4" x="2.62" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="5" x="1.35" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="6" x="0.08" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="7" x="-1.19" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="8" x="-2.46" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="9" x="-3.73" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="10" x="-5" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="11" x="-6.27" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="12" x="-7.54" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="13" x="-8.81" y="8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="14" x="-10.08" y="8.238" dx="0.9" dy="1.5" layer="1"/>
 <polygon width="0" layer="51">
 <vertex x="-11.57" y="1.085"/>
 <vertex x="-11.57" y="0.935" curve="-45"/>
@@ -6070,7 +6036,40 @@ immunity whilst minimising current consumption. &lt;/p&gt;
 <vertex x="-11.12" y="-6.165"/>
 <vertex x="-11.12" y="-5.265"/>
 </polygon>
-<rectangle x1="-3.403" y1="-2.121321875" x2="0.8639" y2="2.121321875" layer="31"/>
+<smd name="15" x="-11.57" y="5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="16" x="-11.57" y="4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="17" x="-11.57" y="3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="18" x="-11.57" y="1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="19" x="-11.57" y="0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="20" x="-11.57" y="-0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="21" x="-11.57" y="-1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="22" x="-11.57" y="-3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="23" x="-11.57" y="-4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="24" x="-11.57" y="-5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<smd name="25" x="-10.08" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="26" x="-8.81" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="27" x="-7.54" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="28" x="-6.27" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="29" x="-5" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="30" x="-3.73" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="31" x="-2.46" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="32" x="-1.19" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="33" x="0.08" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="34" x="1.35" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="35" x="2.62" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="36" x="3.89" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="37" x="5.16" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="38" x="6.43" y="-8.238" dx="0.9" dy="1.5" layer="1"/>
+<smd name="GND" x="-1.27" y="0" dx="6" dy="6" layer="1"/>
+<wire x1="-11.697" y1="6.35" x2="-11.697" y2="9.127" width="0.2032" layer="21"/>
+<wire x1="-11.697" y1="9.127" x2="-10.67" y2="9.127" width="0.2032" layer="21"/>
+<wire x1="-11.697" y1="-6.35" x2="-11.697" y2="-9.127" width="0.2032" layer="21"/>
+<wire x1="-11.697" y1="-9.127" x2="-10.67" y2="-9.127" width="0.2032" layer="21"/>
+<text x="-9.03" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;Name</text>
+<text x="-7.76" y="0" size="0.8128" layer="27" rot="R90" align="center">&gt;Value</text>
+<wire x1="7.041" y1="9.127" x2="14.057" y2="9.127" width="0.2032" layer="21"/>
+<wire x1="7.041" y1="-9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
+<wire x1="14.057" y1="9.127" x2="14.057" y2="-9.127" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -6494,6 +6493,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U3" library="SparkFun-RF" package="ESP-WROOM-32-NARROW" value="ESP-WROOM-32NARROW" x="12.7" y="31.496" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.7" y="22.466" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="PROD_ID" value="IC-13849" x="12.7" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="34.023" size="0.6096" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="U4" library="SparkFun-RF" package="RFM95/96/97/98W" value="RFM95W" x="12.7" y="30.48" rot="MR0">
