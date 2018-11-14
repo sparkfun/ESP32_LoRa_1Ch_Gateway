@@ -28,7 +28,7 @@ Documentation
 
 Product Versions
 ----------------
-* [15006](https://www.sparkfun.com/products/15006)- 
+* [15006](https://www.sparkfun.com/products/15006) - SparkFun LoRa Gateway 1-Channel
 
 Version History
 ---------------
