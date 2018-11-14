@@ -32,7 +32,9 @@ Product Versions
 
 Version History
 ---------------
-* [v10](https://www.sparkfun.com/products/15006) - Initial redboard release
+* [v10](https://github.com/sparkfun/ESP32_LoRa_1Ch_Gateway/releases/tag/v10) - Initial redboard release
+
+
 
 License Information
 -------------------
