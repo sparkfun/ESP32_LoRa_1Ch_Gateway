@@ -1,7 +1,7 @@
 SparkFun LoRa Gateway 1-Channel
 ========================================
 
-![SparkFun LoRa Gateway 1-Channel](URL for picture of part)
+![SparkFun LoRa Gateway 1-Channel](https://cdn.sparkfun.com/assets/parts/1/3/3/2/1/15006-SparkFun_LoRa_Gateway_-_1-Channel__ESP32_-01.jpg)
 
 [*SparkFun LoRa Gateway 1-Channel (15006)*](https://www.sparkfun.com/products/15006)
 
