@@ -11,20 +11,14 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the SparkFun LoRa Gateway 1-Channel
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the SparkFun LoRa Gateway 1-Channel
 
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/ESP32_LoRa_1Ch_Gateway)** - Arduino library for the SparkFun LoRa Gateway 1-Channel.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide)** - Basic hookup guide for the SparkFun LoRa Gateway 1-Channel.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
