@@ -3,7 +3,7 @@
 
 sparkx_esp32_lora.name=SparkX ESP32 LoRa Gateway
 
-sparkx_esp32_lora.upload.tool=esptool
+sparkx_esp32_lora.upload.tool=esptool_py
 sparkx_esp32_lora.upload.maximum_size=1310720
 sparkx_esp32_lora.upload.maximum_data_size=294912
 sparkx_esp32_lora.upload.wait_for_upload_port=true
