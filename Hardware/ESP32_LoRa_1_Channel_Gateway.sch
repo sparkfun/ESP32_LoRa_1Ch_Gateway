@@ -21887,7 +21887,7 @@ lower current consumption than competing devices&lt;/p&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-13849"/>
+<attribute name="PROD_ID" value="IC-15676"/>
 </technology>
 </technologies>
 </device>
@@ -21935,7 +21935,7 @@ lower current consumption than competing devices&lt;/p&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-13849"/>
+<attribute name="PROD_ID" value="IC-15676"/>
 </technology>
 </technologies>
 </device>

@@ -6493,7 +6493,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U2" library="SparkFun-RF" package="ESP-WROOM-32-NARROW" value="ESP-WROOM-32NARROW" x="12.7" y="31.496" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.7" y="22.466" size="0.8128" layer="25" rot="R180" align="center"/>
-<attribute name="PROD_ID" value="IC-13849" x="12.7" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="IC-15676" x="12.7" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="34.023" size="0.6096" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="U4" library="SparkFun-RF" package="RFM95/96/97/98W" value="RFM95W" x="12.7" y="30.48" rot="MR0">
